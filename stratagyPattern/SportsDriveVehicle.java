@@ -1,7 +1,7 @@
-import Stratagy.SportsDriveStratagy;
+import strategy.SportsDriveStrategy;
 
 public class SportsDriveVehicle extends Vehicle {
     SportsDriveVehicle() {
-        super(new SportsDriveStratagy());
+        super(new SportsDriveStrategy());
     }
 }

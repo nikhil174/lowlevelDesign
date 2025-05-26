@@ -1,7 +1,7 @@
-import Stratagy.NormalDriveStratagy;
+import strategy.SportsDriveStrategy;
 
 public class OffRoadVehicle extends Vehicle {
     OffRoadVehicle() {
-        super(new NormalDriveStratagy());
+        super(new SportsDriveStrategy());
     }
 }

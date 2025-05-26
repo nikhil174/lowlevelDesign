@@ -1,10 +1,10 @@
-import Stratagy.DriveStratagy;
+import strategy.DriveStrategy;
 
 public class Vehicle {
-    DriveStratagy driveObject;
+    DriveStrategy driveObject;
 
-    // this is know as constructor injection
-    Vehicle(DriveStratagy driveObject) {
+    // this is known as constructor injection
+    Vehicle(DriveStrategy driveObject) {
         this.driveObject = driveObject;
     }
 
